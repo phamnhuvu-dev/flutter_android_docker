@@ -103,5 +103,5 @@ Stopping flutter_android_docker_android-emulator_1 ... done
     2. Actually, we can run `android-emulator arm` with `-no-accel` but the performance is very bad => can't use on Intel chip macOS
     3. Running `android-emulator arm` on ARM chip macOS:
         - Google is working on that: https://github.com/google/android-emulator-container-scripts/issues/211
-        - Self-building `android-emulator arm` container https://github.com/google/android-emulator-container-scripts. I am using Intel macOS so I don't have ARM macOS to do this. I am waiting for the next M1X Mac mini with 32GB ram, 16GB ram is not enough for me for something paralleling and scaling.
+        - Self-building `android-emulator arm` image https://github.com/google/android-emulator-container-scripts. I am using Intel macOS so I don't have ARM macOS to do this. I am waiting for the next M1X Mac mini with 32GB ram, 16GB ram is not enough for me for something paralleling and scaling.
     4. Connecting `flutter-app` service from container to Android Emulator on macOS, yes we can do that I will write a blog for this.
