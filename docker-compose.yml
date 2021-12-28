@@ -1,0 +1,12 @@
+version: "3.9"  # optional since v1.27.0
+services:
+  android-emulator:
+    image: us-docker.pkg.dev/android-emulator-268719/images/30-google-x64:30.1.2
+    devices:
+      - /dev/kvm
+
+  flutter-app:
+    depends_on:
+      - android-emulator
+    build: .
+    command: make run-test
