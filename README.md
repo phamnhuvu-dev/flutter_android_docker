@@ -73,7 +73,7 @@ services:
 
 - But `flutter-app` and `android-emulator` are services separately. It means they are not the same network, so we need to connect `flutter-app` to `android-emulator` by the following command: `adb connect android-emulator:5555`. Reference: https://developer.android.com/studio/command-line/adb#wireless
 
-- After `flutter-app` connects to `android-emulator`, we can run the Flutter integrations tests with `flutter drive` command. We combine connect emulator script and flutter drive script in `run-test` command in `Makefile`.
+- After `flutter-app` connects to `android-emulator`, we can run the Flutter integration tests with `flutter drive` command. We combine connect emulator script and flutter drive script in `run-test` command in `Makefile`.
 ```
 run-test:
 	sleep 10
