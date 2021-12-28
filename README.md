@@ -85,7 +85,7 @@ run-test:
 ```
 
 ## Run the example
-- After checking out the source code, move to the root of the example.
+- After checking out the source code, move to the root of the source code.
 - Run `make run-docker-test`
 - If you see the following log after running the above command. You succeeded.
 
