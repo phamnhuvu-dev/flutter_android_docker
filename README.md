@@ -1,4 +1,4 @@
-# Running Flutter integtestion tests in Docker
+# Running Flutter integration tests in Docker
 
 ## Prerequisite
 - Linux OS
